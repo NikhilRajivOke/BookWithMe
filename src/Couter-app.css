@@ -1,0 +1,21 @@
+.counter-app{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.counter-app .value{
+    font-size:80px;
+}
+
+.but{
+    background-color: black;
+    color:white;
+    margin : 0px 5px 0px 5px;
+}
+
+button:hover{
+    background-color: cornflowerblue;
+}

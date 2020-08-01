@@ -1,0 +1,49 @@
+@import './colors.scss';
+@import './_header.scss';
+@import './rentalhome';
+@import './rental_details';
+@import './forms';
+html,body{
+  height:100%;
+}
+.bwm-container{
+  padding-top: 70px;
+}
+.rental-link{
+  color:inherit;
+  &:hover{
+    text-decoration: none;
+    color:inherit;
+  }
+}
+.btn{
+    &.btn-bwm-main {
+      border-color: $main-app-color;
+      color: $main-app-color;
+    }
+    &:hover,&:focus,&:active{
+      background-color: $main-app-color;
+      border-color: $main-app-color;
+      color: white;
+      box-shadow: none;
+    }
+  }
+  
+  .navbar-dark .navbar-nav{
+    .nav-link{
+      &:hover{
+     color: #61dafb ;
+    }
+  }
+  }  
+.type-{
+  &apartment{
+    color:#a72da3;
+  }
+  &house{
+    color:#bf1818;
+  }
+  &condo{
+    color:#d68000;
+  }
+}

@@ -5,12 +5,9 @@ import {Redirect} from 'react-router-dom';
 import {withAuth} from 'providers/authProvider';
 
 class Login extends React.Component {
-    constructor(){
-        super();
-        this.state={
+    state={
             shouldRedirect : false,
             errors : [],
-        }
     }
    
     loginUser = Logindata =>{     
